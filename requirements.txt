@@ -1,0 +1,8 @@
+# 智能抢购助手依赖包
+pytesseract>=0.3.10
+Pillow>=9.0.0
+pyautogui>=0.9.54
+
+# 可选：如果需要更好的OCR效果，可以安装以下包
+# opencv-python>=4.5.0
+# numpy>=1.21.0
