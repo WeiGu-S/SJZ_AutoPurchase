@@ -1,0 +1,28 @@
+# 包含额外文件
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+include Makefile
+include pyproject.toml
+
+# 包含类型提示标记
+include smart_buyer/py.typed
+
+# 排除不需要的文件
+exclude .gitignore
+exclude *.log
+exclude config.json
+exclude test_config.json
+exclude debug_ocr.png
+
+# 排除测试文件
+recursive-exclude tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+# 排除开发文件
+exclude .vscode
+exclude .idea
+recursive-exclude .vscode *
+recursive-exclude .idea *
